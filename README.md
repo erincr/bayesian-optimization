@@ -25,7 +25,7 @@ In the case of hyperparameter tuning, the 'black-box function' generally consist
 This black-box function takes values of hyperparameters as inputs, and returns a performance metric. The performance metric can be anything (f1-score, AUC-ROC, accuracy, etc.), and it can take into account penalties for undesirable features (training time, evaluation time, memory use, etc). 
 
 ## Code Examples
-- `Affairs.ipynb` shows how to use hyperopt with a tree of parzen estimators for hyperparameter tuning, and for model selection. 
+- `Examples/Affairs.ipynb` shows how to use hyperopt with a tree of parzen estimators for hyperparameter tuning, and for model selection. 
 
 ## References
 - [Algorithms for Hyper-Parameter Optimization](https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf)

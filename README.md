@@ -28,11 +28,36 @@ This black-box function takes values of hyperparameters as inputs, and returns a
 - `Examples/Affairs.ipynb` shows how to use hyperopt with a tree of parzen estimators for hyperparameter tuning, and for model selection. 
 
 ## References
+### Papers
+
 - [Algorithms for Hyper-Parameter Optimization](https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf)
   - Authors: Bergstra, Bardenet, Bengio, Kégl
+- [Automatic Model Construction with Gaussian Processes](http://www.cs.toronto.edu/~duvenaud/thesis.pdf)
+  - Author: Duvenaud
 - [Auto-WEKA: Combined Selection and Hyperparameter Optimization of Classification Algorithms](https://arxiv.org/pdf/1208.3719.pdf)
   - Authors: Thornton, Hutter, Hoos, Brown
+- [Bayesian Hyperparameter Optimization for Ensemble Learning](https://www.arxiv.org/abs/1605.06394)
+  - Authors: Lévesque, Gagné, Sabourin
 - [Practical Bayesian Optimization of Machine Learning Algorithms](https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf)
   - Authors: Snoek, Larochelle, Adams
-- [Bayesian Optimization on Wikipedia](https://en.wikipedia.org/wiki/Bayesian_optimization)
+- [Sequential Model-Based Optimization for General Algorithm Configuration](http://www.cs.ubc.ca/~hutter/papers/11-LION5-SMAC.pdf)
+  - Authors: Hutter, Hoos, Leyton-Brown
+- [Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters](https://www.cs.ubc.ca/~hoos/Publ/EggEtAl13.pdf)
+  - Authors: Eggensperger, Feurer, Hutter, Bergstra, Snoek, Hoos, Leyton-Brown
+- [Modular mechanisms for Bayesian optimization](http://mlg.eng.cam.ac.uk/hoffmanm/papers/hoffman:2014b.pdf)
+  - Authors: Hoffman, Shahriari
+
+### Books
+- [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/)
+   - Authors: Rasmussen, Williams
+
+### Software (list curated primarily for Python)
+- [hyperopt](https://github.com/hyperopt/hyperopt)
+- [Spearmint](https://github.com/JasperSnoek/spearmint)
+- [MOE](https://github.com/Yelp/MOE)
 - [SigOpt](https://sigopt.com/)
+- [GPyOpt](https://sheffieldml.github.io/GPyOpt/)
+- [BayesOpt](http://rmcantin.bitbucket.org/html/)
+
+### Other 
+- [Bayesian Optimization on Wikipedia](https://en.wikipedia.org/wiki/Bayesian_optimization)

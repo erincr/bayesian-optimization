@@ -25,7 +25,8 @@ In the case of hyperparameter tuning, the 'black-box function' generally consist
 This black-box function takes values of hyperparameters as inputs, and returns a performance metric. The performance metric can be anything (f1-score, AUC-ROC, accuracy, etc.), and it can take into account penalties for undesirable features (training time, evaluation time, memory use, etc). 
 
 ## Code Examples
-- `Examples/Affairs.ipynb` shows how to use hyperopt with a tree of parzen estimators for hyperparameter tuning, and for model selection. 
+- `Examples/Hyperopt_Predict_Affairs.ipynb` shows how to use hyperopt with a tree of parzen estimators for hyperparameter tuning, and for model selection. 
+- `Examples/Scikit-optimize_Predict_Affairs.ipynb` shows how to use scikit-optimize with Gaussian processes and trees for hyperparameter tuning (using expected improvement). 
 
 ## References
 ### Papers
@@ -52,7 +53,8 @@ This black-box function takes values of hyperparameters as inputs, and returns a
    - Authors: Rasmussen, Williams
 
 ### Software (list curated primarily for Python)
-- [hyperopt](https://github.com/hyperopt/hyperopt)
+- [Hyperopt](https://github.com/hyperopt/hyperopt)
+- [Scikit-Optimize](https://scikit-optimize.github.io/)
 - [Spearmint](https://github.com/JasperSnoek/spearmint)
 - [MOE](https://github.com/Yelp/MOE)
 - [SigOpt](https://sigopt.com/)

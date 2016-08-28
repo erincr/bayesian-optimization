@@ -61,5 +61,8 @@ This black-box function takes values of hyperparameters as inputs, and returns a
 - [GPyOpt](https://sheffieldml.github.io/GPyOpt/)
 - [BayesOpt](http://rmcantin.bitbucket.org/html/)
 
+### Videos
+- [Introduction to Gaussian Processes from Neil Lawrence](https://www.youtube.com/watch?v=ewJ3AxKclOg)
+
 ### Other 
 - [Bayesian Optimization on Wikipedia](https://en.wikipedia.org/wiki/Bayesian_optimization)

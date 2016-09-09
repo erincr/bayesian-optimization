@@ -9,9 +9,9 @@ The outline of Bayesian optimization is as follows:
 - Use this history to decide what point to inspect next
 - Repeat
 
-As such, Bayesian optimization is a 'sequential' strategy: you compute function values at points one after the other. In the case of hyperparameter tuning, this is often referred to as Sequential Model Based Optimization (SMBO).
+Bayesian optimization is a 'sequential' strategy: you compute function values at points one at a time. In the case of hyperparameter tuning, this is often referred to as Sequential Model Based Optimization (SMBO).
 
-We can restate this general strategy more precisely: start by placing a prior distribution over your function (the prior distribution can be uniform). Use the prior distribution to choose a point to sample - ideally, the goal is to sample a point with a high probability of maximizing (or minimizing) your function. Compute the function value at this point, and incorporate this data into your prior to create a posterior distribution. Begin again: your posterior is your new prior. 
+We can restate this general strategy more precisely: start by placing a prior distribution over your function (the prior distribution can be uniform). Use the prior distribution to choose a point to sample. There are a few ways to choose what point to sample - informally, the goal is to sample a point with a high probability of maximizing (or minimizing) your function. Compute the function value at this point, and incorporate this data to create a posterior distribution. Begin again: your posterior is your new prior. 
 
 There are many algorithms for how to create distributions, and how to choose what point to sample (see references).
 
